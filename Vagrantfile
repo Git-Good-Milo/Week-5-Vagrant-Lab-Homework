@@ -10,11 +10,11 @@ Vagrant.configure("2") do |config|
 
 
   # Synced app folder
-  #config.vm.synced_folder "app", "/app"
+  config.vm.synced_folder "app1", "/app1"
 
   # provisioning bash script
-  #config.vm.provision "shell", path: "environment/provision.sh"
-
+  config.vm.provision "shell", path: "environment/provision.sh"
+  #config.vm.provision
 
 
 end
