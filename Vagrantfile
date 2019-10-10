@@ -12,7 +12,7 @@ Vagrant.configure("2") do |config|
 
 
   # Synced app folder
-  config.vm.synced_folder "app1", "/app1"
+  config.vm.synced_folder "node-sample-app", "/node-sample-app"
 
   # provisioning bash script
 # config.vm.provision "shell", path: "environment/provision.sh"
